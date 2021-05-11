@@ -1,2 +1,2 @@
 # dotnetcore-api
-A base dotnet core api solution which I create to learn the fundamentals step by step
+A base dotnet core api solution to learn the fundamentals step by step
