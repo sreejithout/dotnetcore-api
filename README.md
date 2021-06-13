@@ -13,9 +13,14 @@
     docker pull datalust/seq
     docker run --name seq -d --restart unless-stopped -e ACCEPT_EULA=Y -p 5341:80 datalust/seq:latest
     ```
-3. Layering
+3. Layering (Trying a Clean Architecture here)
     - Business Logic Layer **dotnetcore-api.BLL**
+        - Interfaces (even the one's for Repositories)
+        - Models
+        - DTOs
+        - Enums
     - Data Access Layer **dotnetcore-api.DAL**
+    - as per dependency inversion or clean architecture level, we are going to move the interfaces for the the repositories to BLL layer. Means, we will be referencing BLL from DAL and not other way around.
 
 4. Dependency Injection
     - [built-in DI provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0)
