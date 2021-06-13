@@ -21,6 +21,10 @@ namespace dotnetcore_api
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                })
+                .ConfigureLogging(builder =>
+                {
+                    builder.AddSeq();
                 });
     }
 }

@@ -1,14 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 
 namespace dotnetcore_api.Controllers.CSharp
 {
     [ApiController]
     public class StringController : BaseCSharpController
     {
+        private readonly ILogger<StringController> _logger;
+
+        public StringController(ILogger<StringController> logger)
+        {
+            _logger = logger;
+        }
+
         [HttpGet]
         public ActionResult<string> LetsStart()
         {
             string s = "This is a string";
+            _logger.LogInformation("Log info check");
             return Ok(s);
         }
 
