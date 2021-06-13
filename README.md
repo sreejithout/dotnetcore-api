@@ -15,15 +15,13 @@
     docker run --name seq -d --restart unless-stopped -e ACCEPT_EULA=Y -p 5341:80 datalust/seq:latest
     ```
 4. Dependency Injection
-    - Initially with built-in DI provider
-    [https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
+    - [Initially with built-in DI provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0)
     - Then moving to Autofac
 
 5. Configurations
 
 ## Things todo in pipeline
-- Dapper for ORM
-- [https://github.com/DapperLib/Dapper](https://github.com/DapperLib/Dapper)
+- [Dapper for ORM](https://github.com/DapperLib/Dapper)
 ### Package Registry
 - [https://docs.microsoft.com/en-us/nuget/hosting-packages/overview](https://docs.microsoft.com/en-us/nuget/hosting-packages/overview)
 ### Workflow Library
