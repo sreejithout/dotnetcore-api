@@ -5,8 +5,4 @@
     <RootNamespace>dotnetcore_api.BLL</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\dotnetcore-api.DAL\dotnetcore-api.DAL.csproj" />
-  </ItemGroup>
-
 </Project>
