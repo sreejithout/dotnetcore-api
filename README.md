@@ -1,5 +1,5 @@
 # Dotnet Core Api
-## A base dotnet core api solution to learn the fundamentals step by step
+## .NET 5 api solution to learn the fundamentals step by step
 
 1. [Based on .NET 5](https://docs.microsoft.com/en-us/dotnet/core/dotnet-five)
     - Created solution with open api(swagger) and docker support
