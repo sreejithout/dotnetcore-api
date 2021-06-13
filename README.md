@@ -13,11 +13,15 @@
     docker pull datalust/seq
     docker run --name seq -d --restart unless-stopped -e ACCEPT_EULA=Y -p 5341:80 datalust/seq:latest
     ```
-3. Dependency Injection
+3. Layering
+    - Business Logic Layer **dotnetcore-api.BLL**
+    - Data Access Layer **dotnetcore-api.DAL**
+
+4. Dependency Injection
     - [built-in DI provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0)
     - Here, I'm using [Autofac](https://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
 
-4. Configurations
+5. Configurations
 
 ## Things todo in pipeline
 - [Dapper for ORM](https://github.com/DapperLib/Dapper)
