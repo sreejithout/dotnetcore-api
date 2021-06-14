@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace dotnetcore_api.Controllers.CSharp
+namespace dotnet5Api.Controllers.CSharp
 {
     [ApiController]
     public class StringController : BaseCSharpController

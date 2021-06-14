@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "dotnetcore_api": {
+    "dotnet5Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

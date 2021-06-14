@@ -12,7 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace dotnetcore_api
+namespace dotnet5Api
 {
     public class Startup
     {
@@ -30,7 +30,7 @@ namespace dotnetcore_api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnetcore_api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet5Api", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace dotnetcore_api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnetcore_api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dotnet5Api v1"));
             }
 
             app.UseHttpsRedirection();

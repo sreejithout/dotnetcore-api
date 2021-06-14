@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnetcore-api", "dotnetcore-api\dotnetcore-api.csproj", "{3B154EFD-5BCE-441E-8EF4-F58EA742639C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet5Api", "dotnetcore-api\dotnet5Api.csproj", "{3B154EFD-5BCE-441E-8EF4-F58EA742639C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcore-api.BLL", "dotnetcore-api.BLL\dotnetcore-api.BLL.csproj", "{BD2D9D24-AE89-4785-8FD9-2607E5DF24CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet5Api.BLL", "dotnetcore-api.BLL\dotnet5Api.BLL.csproj", "{BD2D9D24-AE89-4785-8FD9-2607E5DF24CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcore-api.DAL", "dotnetcore-api.DAL\dotnetcore-api.DAL.csproj", "{7FD27BE9-99B4-4FB3-A640-2FAA51A5ED86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet5Api.DAL", "dotnetcore-api.DAL\dotnet5Api.DAL.csproj", "{7FD27BE9-99B4-4FB3-A640-2FAA51A5ED86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80538222-8FAB-4478-98E6-12DF617FD650}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B154EFD-5BCE-441E-8EF4-F58EA742639C} = {80538222-8FAB-4478-98E6-12DF617FD650}
+		{BD2D9D24-AE89-4785-8FD9-2607E5DF24CF} = {80538222-8FAB-4478-98E6-12DF617FD650}
+		{7FD27BE9-99B4-4FB3-A640-2FAA51A5ED86} = {80538222-8FAB-4478-98E6-12DF617FD650}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A6C5390-3232-4785-9B95-78E700957D4D}

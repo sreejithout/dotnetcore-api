@@ -2,19 +2,21 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>dotnetcore_api</RootNamespace>
+    <RootNamespace>dotnet5Api</RootNamespace>
     <UserSecretsId>0423bcc3-8985-4863-86df-26be5c904199</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
     <PackageReference Include="Seq.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotnetcore-api.BLL\dotnetcore-api.BLL.csproj" />
+    <ProjectReference Include="..\dotnetcore-api.BLL\dotnet5Api.BLL.csproj" />
   </ItemGroup>
 
 </Project>

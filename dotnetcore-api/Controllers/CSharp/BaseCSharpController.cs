@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace dotnetcore_api.Controllers.CSharp
+namespace dotnet5Api.Controllers.CSharp
 {
     [Route("CSharp/[controller]")]
     [ApiController]

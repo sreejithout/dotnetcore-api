@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>dotnetcore_api.DAL</RootNamespace>
+    <RootNamespace>dotnet5Api.DAL</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\dotnetcore-api.BLL\dotnetcore-api.BLL.csproj" />
+    <ProjectReference Include="..\dotnetcore-api.BLL\dotnet5Api.BLL.csproj" />
   </ItemGroup>
 
 </Project>
