@@ -24,6 +24,7 @@
 
 4. Dependency Injection
     - [built-in DI provider](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0)
+    - [.NET 5 DI](https://www.youtube.com/watch?v=0x2KW-dJDQU)
     - Here, I'm using [Autofac](https://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
 
 5. Configurations
