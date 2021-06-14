@@ -19,4 +19,8 @@
     <ProjectReference Include="..\dotnetcore-api.BLL\dotnet5Api.BLL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\CSharp\Collections\" />
+  </ItemGroup>
+
 </Project>
