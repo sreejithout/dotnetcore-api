@@ -27,8 +27,19 @@
     - [.NET 5 DI](https://www.youtube.com/watch?v=0x2KW-dJDQU)
     - Here, I'm using [Autofac](https://autofac.readthedocs.io/en/latest/integration/aspnetcore.html)
 
-5. Configurations
+5. [Configurations](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0)
 
+6. [Routing](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-5.0)
+
+7. Model Binding
+
+8. Http Client 
+    - [IHttpClientFactory](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/http-requests?WT.mc_id=AZ-MVP-5003875&view=aspnetcore-5.0)
+    - [Polly for Retry, Circuit Breaker and more](https://github.com/App-vNext/Polly)
+
+9. [CORS](https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-5.0)
+
+10. [Options Pattern](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-5.0)
 ## Things todo in pipeline
 - [Dapper for ORM](https://github.com/DapperLib/Dapper)
 ### Package Registry
